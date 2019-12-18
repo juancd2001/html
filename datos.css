@@ -1,0 +1,14 @@
+@charset="utf-8";
+header{
+text-align: center;
+font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  background: #7a4363;
+}
+
+form {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}

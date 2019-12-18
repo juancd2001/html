@@ -1,0 +1,83 @@
+/* CSS Document */
+body {
+	background-color: #7991AA;
+	font-size: 1em;
+	
+}
+
+
+header {
+	fotn-size: .8em;
+	color: #FFF;
+	background: url("../Imagenes/pasto.jpg");
+}
+
+nav ul li span {
+	margin-right: .8em;
+}
+
+nav ul li {
+	float: left;
+	
+}
+
+nav {
+	widht:90%;
+	margin: 1em auto;
+	max-width: 1100px;
+	background: #000;
+	
+}
+
+nav ul {
+	
+	overflow: hidden;
+	list-style: none;
+	padding: 0 10.2em;
+}
+
+
+nav ul li a {
+	color: #fff;
+	padding: 1.5em;
+	display: block;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #040B4;
+	border:double;
+}
+
+
+aside, header, section#Contenedor, section#Contenido, footer{
+	background-color: #333333;
+	margin:.3em auto;
+	padding: .5em;
+	vertical-align: top;
+	widht:100%;
+}
+
+aside {
+	text-align: center;
+	width: 25%;
+}
+
+aside, section#Contenido{
+	display: inline-block;
+	background-color: #333;
+	min-height: 200px;
+	widht:73%;
+}
+
+aside{
+text-align: center;
+	width: 25%;
+}
+
+footer {
+	text-align: center;
+	color:#FFF;
+	font-size: 7em;
+}
+	

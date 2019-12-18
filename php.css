@@ -1,0 +1,61 @@
+@charset="utf-8";
+body{
+background-color: #AD938D;
+}
+header{
+	text-align: center;
+}
+.Titulo {
+	color: #0a64ee;
+	font-size: 3em;
+}
+.Titulo:hover{
+	color: #ee3413;
+		font-size:3.2em;
+	}
+}
+.miniatura{z-index: 0;
+	text-decoration: none;
+
+
+}
+.miniatura:hover{background-color: transparent;
+z-index: 1;
+}
+.miniatura span{
+	padding: 5px;
+	position: absolute;
+	text-decoration:none;
+	visibility: hidden;
+	border: 0;
+}
+.miniatura:hover span{
+	visibility: visible;
+	top: 0;
+	left: 60px;
+	z-index: 2;
+	background-color: #000;
+
+}
+.ampliada{
+	width: 300px;
+	height: 250px;
+}
+.miniatura img {
+	border: 0;
+
+}
+.miniatura img.mini{
+	height: 150px;
+	width: 200px;
+}
+
+table{
+	border: 2px solid #FFFFFF;
+}
+
+.flechas{
+	margin: 10px;
+	width: 4em;
+	height: 4em;
+}
